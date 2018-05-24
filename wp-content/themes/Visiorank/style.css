@@ -180,9 +180,9 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 	/*Custom Css -------------------------------*/
 	.left        { float: left; }
-	.right       { float: right; }
+	.right       { float: none; }
 	.text-left   { text-align: left; }
-	.text-right  { text-align: right; }
+	.text-right  { text-align: center; }
 	.text-center { text-align: center; }
 	.text-bold	 { font-weight:bold;}
 	.hide        { display: none; }
@@ -547,7 +547,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 			
 			.footer-outer-wrapper #searchform .screen-reader-text{display: none;}
-            .footer-outer-wrapper #searchform #s{background: #555555;font-size: 10px;color:#959595; border:none;padding:8px 6px 8px 6px;width: 143px;}
+            .footer-outer-wrapper #searchform #s{background: #130d0d;font-size: 10px;color:#fff; border:none;padding:8px 6px 8px 6px;width: 143px;}
 			.footer-outer-wrapper #searchform #searchsubmit{background: #666666;border:none;font-size: 11px;color:#999999;padding:6.5px 12px;margin-left:-4px;}
 			.footer-outer-wrapper .widget_categories ul li ul{margin-left:0px;border-top:1px solid #5a5959;margin-top:5px;margin-bottom:-6px;}
 			.footer-outer-wrapper .widget_categories ul li ul li:last-child{border-bottom:none;}
@@ -689,8 +689,8 @@ License URI: http://www.gnu.org/licenses/gpl.html
 		.tagcloud a:hover,.page-tags a:hover{background-color: #16A1E7;color:#fff !important;text-shadow: none;}
 
 		/*Footer Copyright ---------------------*/
-		.copyright-outer-wrapper{background: #292929;padding-top:20px; font-size:0.7rem}
-		.copyright-wrapper{color:#999999;}
+		.copyright-outer-wrapper{background: #eee;padding-top:20px; font-size:0.7rem}
+		.copyright-wrapper{color:#000;}
 		.copyright-wrapper ul{margin-bottom:0px;}
 		.copyright-wrapper ul li{display: inline;margin-bottom:0px;padding:0px 17px;background: url('assets/images/footer-list-bg.png') no-repeat right center;}
 		.copyright-wrapper ul li:first-child{padding-left:0px;}
@@ -1039,3 +1039,47 @@ span.wpcf7-not-valid-tip {
   margin: 0;
   padding: 0;
 }
+
+/*-- modifromroby--*/
+
+.header-outer-wrapper {
+   background:#eee;
+}
+
+.primary-nav-outer-wrapper {
+  background:#130d0d;
+}
+
+.primary-nav{background: #130d0d}
+.slideMenu ul {
+	padding-left: 20px!important
+}
+
+.primary-nav li.current-menu-item a, .primary-nav li:hover a {color:#000; background-color: #fff!important;}
+
+.hentry {
+	background-color: #eee;
+	padding:15px;
+}
+
+.right-sidebar-wrapper {
+	background-color: #eee
+}
+
+.footer-outer-wrapper{
+	background-color: #130d0d!important;
+}
+
+/********************* CUSTOM *********************/
+span.phone{
+	/*background: url(assets/images/bg-phone.png) no-repeat center left;*/
+	padding-left: 35px;
+	color: #000;
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	display: block;
+    line-height: 5.4;
+    margin-top: 10px;
+}
+/********************* CUSTOM *********************/
